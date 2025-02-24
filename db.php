@@ -1,0 +1,11 @@
+<?php
+$sv="localhost";
+$name="root";
+$pw="";
+$db="die";
+$conn=mysqli_connect($sv,$name,$pw,$db);
+mysqli_set_charset($conn,'utf8');
+date_default_timezone_set('Asia/Bangkok');
+error_reporting(0);
+session_start();
+?>
